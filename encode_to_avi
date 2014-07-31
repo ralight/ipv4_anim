@@ -1,0 +1,1 @@
+mencoder "mf://ordered/*.png" -mf w=1024:h=1080:fps=18 -o ipv4.avi -ovc lavc -lavcopts vcodec=mjpeg:mbd=1:vbitrate=1800 -noskip
